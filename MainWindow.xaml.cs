@@ -92,9 +92,7 @@ public partial class MainWindow {
     }
 
     private void OnTitleBarMouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
-        if (e.ButtonState == MouseButtonState.Pressed) {
-            DragMove();
-        }
+        if (e.ButtonState == MouseButtonState.Pressed) DragMove();
     }
 
     private void OnCloseButtonClick(object sender, RoutedEventArgs e) {

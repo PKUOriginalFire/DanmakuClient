@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Title="弹幕客户端"
+        Icon="Resources/Icon.ico"
         SizeToContent="WidthAndHeight"
         MinWidth="300"
         Background="White"
@@ -119,7 +120,9 @@
             </Grid>
         </GroupBox>
 
-        <Button Content="确认"
+        <Button x:Name="ConfirmButton"
+                Content="确认"
+                IsDefault="True"
                 Click="OnConfirmClick" />
     </StackPanel>
 </Window>

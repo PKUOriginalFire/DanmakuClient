@@ -8,6 +8,7 @@
         <UseWPF>true</UseWPF>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>13</LangVersion>
+        <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,4 +19,7 @@
         <FrameworkReference Include="Microsoft.WindowsDesktop.App.WindowsForms"/>
     </ItemGroup>
 
+    <ItemGroup>
+        <Resource Include="Resources\Icon.ico" />
+    </ItemGroup>
 </Project>
